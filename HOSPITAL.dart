@@ -41,22 +41,6 @@ List tables = new List<HospitalRoom>.generate(OPERATING_TABLE_COUNT, (_) => new 
 List beds = new List<HospitalRoom>.generate(RECOVERTY_BED_COUNT, (_) => new HospitalRoom.fromOpenTime(START_TIME));
 List patients = [];
 int nextPatient = 0;
-  // new Patient("Jones", 28, 140),
-  // new Patient("Smith", 120, 200),
-  // new Patient("Thompson", 23, 75),
-  // new Patient("Albright", 19, 82),
-  // new Patient("Poucher", 133, 209),
-  // new Patient("Comer", 74, 101),
-  // new Patient("Perry", 93, 188),
-  // new Patient("Page", 111, 223),
-  // new Patient("Roggio", 69, 122),
-  // new Patient("Brigham", 42, 79),
-  // new Patient("Nute", 22, 71),
-  // new Patient("Young", 38, 140),
-  // new Patient("Bush", 26, 121),
-  // new Patient("Cates", 120, 248),
-  // new Patient("Johnson", 86, 181),
-  // new Patient("White", 92, 140)
 
 void ParseHeader() {
   List header = stdin.readLineSync().split(' ');
