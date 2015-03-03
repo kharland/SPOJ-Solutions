@@ -1,10 +1,8 @@
 /**
 * partial solution SPOJ HOSPITAL problem. This answer leaves out the table
 * indicating the total use time and usage amount for each operating table
-* and recovery room and the output of this program is not robust like the 
-* required challenge output. This is just a solution to the scheduling portion
+* and recovery room. This is just a solution to the scheduling portion
 * of the algorithm.
-* 
 */
 
 import 'dart:io';
